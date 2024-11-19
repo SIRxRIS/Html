@@ -1,0 +1,65 @@
+.card {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.badge {
+  background-color: #f0f0f0;
+  color: #888;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px;
+  position: absolute;
+  top: 0;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.btn {
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+}
+
+@layer utilities {
+  .btn {
+    --btn-color: #1E88E5;
+    --btn-secondary-color: #00897B;
+    --btn-info-color: #00ACC1;
+    --btn-warning-color: #FF6F00;
+    --btn-danger-color: #DD2C00;
+  }
+}
+
+.btn-primary {
+  background-color: var(--btn-color);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--btn-secondary-color);
+  color: white;
+}
+
+.btn-info {
+  background-color: var(--btn-info-color);
+  color: white;
+}
+
+.btn-warning {
+  background-color: var(--btn-warning-color);
+  color: white;
+}
+
+.btn-danger {
+  background-color: var(--btn-danger-color);
+  color: white;
+}
+body{
+  background-color: ;
+  background-image: url(gambar/bg3.png);
+  background-repeat: ;
+}

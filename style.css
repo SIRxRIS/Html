@@ -1,0 +1,55 @@
+h1{
+	color: whitesmoke;
+	font-family: serif;
+	font-size: 40px;
+	text-align: center;
+	font-style: oblique;
+line-height: 15px;
+text-decoration: underline;
+
+}
+.langkah:link{
+	color: lightblue;
+}
+.langkah:hover{
+	font-family: serif;
+	color: blue;
+	font-size: 20px;
+}
+.langkah:active{
+	font-style: italic;
+}
+.langkah:visited{
+	color: seagreen;
+}
+h3	{
+	line-height: 1px;
+}
+p{
+	font-family: times new roman;
+	font-weight: normal;
+	text-indent: 30px;
+
+
+}
+p{
+	font-family: times new roman;
+	font-weight: normal;
+	text-indent: 30px;
+}
+body{
+	background-color: ;
+	background-image: url(gambar/bg3.png);
+	background-repeat: ;
+	
+}
+
+li:nth-child(odd) a {
+	color: green;
+}
+li:nth-child(odd) a:hover {
+	color: lightblue;
+}
+p:first-of-type{
+	color:ghostwhite;
+}
